@@ -28,7 +28,6 @@ public class Movement : MonoBehaviour
     void Update()
     {
         
-        Debug.Log(Input.GetAxis("Horizontal"));
         if(Input.GetAxisRaw("Horizontal") != 0)
         {
             if(Input.GetAxis("Horizontal") > 0)
